@@ -1,0 +1,88 @@
+﻿@import "unidade1.scss";
+
+figure {
+    > div {
+        > ul {
+            @extend .clean-ul;
+
+            margin-bottom: 133px;
+
+            > li {
+                display: grid;
+                grid-template-columns: auto 1fr;
+                margin-bottom: 18px;
+
+                &:nth-child(2) {
+                    margin-left: 100px;
+                }
+
+                &:nth-child(3) {
+                    margin-left: 200px;
+                }
+
+                &:nth-child(4) {
+                    margin-left: 300px;
+                }
+
+                > div {
+                    align-self: flex-end;
+                    padding-bottom: 12px;
+                    padding-left: 25px;
+                    margin-bottom: 25px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 21px;
+                    /* identical to box height, or 131% */
+                    letter-spacing: 0.05em;
+                    color: #246BD7;
+                    background-image: url('pg2.arrow.svg');
+                    background-repeat: no-repeat;
+                    background-position: bottom left;
+                }
+            }
+        }
+    }
+}
+
+table {
+    width: 711px;
+
+    tbody {
+        td {
+            &:nth-child(2n+1) {
+                /* identical to box height, or 150% */
+                font-weight: bold;
+                padding-left: 16px;
+                vertical-align: bottom;
+                text-align: left;
+                width: 60%;
+            }
+
+            &:nth-child(2n) {
+                width: 40%;
+            }
+        }
+    }
+
+    tr:nth-child(2n) {
+        background: rgba(45, 156, 219, 0.2);
+        border-top: 1px solid #2D9CDB;
+        border-bottom: 1px solid #2D9CDB;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    table {
+        width: 100%;
+    }
+    figure {
+        ul {
+            li {
+                margin-left: 0 !important;
+                margin-bottom: 5em !important;
+            }
+        }
+    }
+}

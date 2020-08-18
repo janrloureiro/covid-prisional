@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="101"
+   height="66"
+   viewBox="0 0 101 66"
+   fill="none"
+   version="1.1"
+   id="svg839"
+   sodipodi:docname="OBJ GERAL.svg"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)">
+  <metadata
+     id="metadata845">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs843">
+    <rect
+       id="rect842"
+       height="17.901532"
+       width="88.402625"
+       y="31.051422"
+       x="2.4310722" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="955"
+     id="namedview841"
+     showgrid="false"
+     inkscape:zoom="9.049505"
+     inkscape:cx="56.82079"
+     inkscape:cy="46.260394"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg839" />
+  <circle
+     cx="52"
+     cy="21"
+     r="21"
+     fill="#9BCCFA"
+     id="circle835" />
+  <path
+     d="M51.5 20.35C50.6949 20.35 49.9227 20.0076 49.3534 19.3981C48.7841 18.7886 48.4643 17.962 48.4643 17.1C48.4643 16.238 48.7841 15.4114 49.3534 14.8019C49.9227 14.1924 50.6949 13.85 51.5 13.85C52.3051 13.85 53.0773 14.1924 53.6466 14.8019C54.2159 15.4114 54.5357 16.238 54.5357 17.1C54.5357 17.5268 54.4572 17.9494 54.3046 18.3437C54.1521 18.738 53.9285 19.0963 53.6466 19.3981C53.3647 19.6999 53.03 19.9393 52.6617 20.1026C52.2934 20.2659 51.8987 20.35 51.5 20.35ZM51.5 8C49.2457 8 47.0837 8.95875 45.4896 10.6653C43.8955 12.3719 43 14.6865 43 17.1C43 23.925 51.5 34 51.5 34C51.5 34 60 23.925 60 17.1C60 14.6865 59.1045 12.3719 57.5104 10.6653C55.9163 8.95875 53.7543 8 51.5 8Z"
+     fill="#246BD7"
+     id="path837" />
+  <text
+     transform="translate(15.138949,14.033917)"
+     style="font-size:14.66670000000000051px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect842);"
+     id="text840"
+     xml:space="preserve"><tspan
+       x="2.4316406"
+       y="44.431657"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;font-family:arial;-inkscape-font-specification:'arial Bold';fill:#000000">Objetivos</tspan></tspan></text>
+</svg>

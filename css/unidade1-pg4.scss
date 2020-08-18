@@ -1,0 +1,112 @@
+﻿@import "unidade1.scss";
+
+.light {
+    font-weight: normal !important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th, td {
+        border-bottom: 2px solid #246BD7;
+        border-right: 2px solid #246BD7;
+    }
+
+    thead {
+        background: #9BCCFA;
+
+        th {
+            color: #246BD7;
+        }
+    }
+
+    tfoot {
+        td {
+            border: 0;
+        }
+    }
+
+    tbody {
+        td {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            /* identical to box height, or 117% */
+            letter-spacing: 0.05em;
+            color: #000000;
+
+
+            &:nth-child(3n+1) {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+                /* identical to box height, or 117% */
+                letter-spacing: 0.05em;
+                color: #000000;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.balloon {
+    max-width: 907px;
+    margin: 0 auto !important;
+    border: 4px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 50px;
+    margin-top: 19px !important;
+    margin-bottom: 19px !important;
+
+    &.molecular {
+        > h1 {
+            background-image: url('icon.molecular.svg');
+        }
+    }
+
+    &.sorologico {
+        > h1 {
+            background-image: url('icon.sorologico.svg');
+        }
+    }
+
+    > h1 {
+        display:block;
+        height: 61px;
+        line-height: 61px !important;
+        background-repeat: no-repeat;
+        background-position: left center;
+        margin: 0;
+        padding: 0;
+        padding-left: 91px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 21px;
+        /* identical to box height, or 105% */
+        letter-spacing: 0.05em;
+        color: #246BD7;
+    }
+
+    > p {
+        margin-top: 17px !important;
+        text-align: justify !important;
+        /* CONTEUDO */
+        font-family: Roboto !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 14px !important;
+        line-height: 21px !important;
+        /* or 150% */
+        letter-spacing: 0.02em !important;
+        /* TEXTO BLACK 60% */
+        color: rgba(0, 0, 0, 0.6) !important;
+    }
+}

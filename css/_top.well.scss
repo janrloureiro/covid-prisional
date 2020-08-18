@@ -1,0 +1,60 @@
+﻿@import "_variables.scss";
+
+.container {
+    > .top.well {
+        @extend .global-container;
+        margin-top: 16px !important;
+        margin-bottom: 36px !important;
+        padding-top: 47px;
+        padding-bottom: 40px;
+        background: #ADF0FF;
+        border-radius: 30px;
+        text-align: center;
+
+        > h2 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: 0.6em;
+            /* Gray 1 */
+            color: #333333;
+        }
+
+        > h1 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 56px;
+            /* Blue 1 */
+            color: $blue1;
+        }
+
+        > ul {
+            @extend .clean-ul;
+
+            li {
+                box-sizing: border-box;
+                display: inline-block;
+                border: 1px solid #2F80ED;
+                border-radius: 4px;
+                padding: 9px;
+                margin-bottom: 9px;
+                margin-right: 6px;
+                margin-left: 6px;
+
+                a {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #2F80ED;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+﻿$gray1: #333333;
+$blue1: #2F80ED;
+$blue3: #56CCF2;
+
+$global-margin-left: 120px;
+$global-margin-right: 120px;
+$global-width: 1200px;
+
+.global-container {
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.clean-ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
